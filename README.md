@@ -1,5 +1,7 @@
 # Welcome-To-Hell
 my projects:
 
-    Not much. Im an unemployed loser student with a plan.
-    Lets see how it goes...
+    Here in hell we try our best to make sure all Hell breaks loose!! 
+    If one wishes to participate in my Hellish scheme, thats just too bad...
+    Your in Hell now. Hell is private and you have no say. 
+    Enjoy your time and dont die tonight.
