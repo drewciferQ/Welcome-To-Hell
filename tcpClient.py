@@ -1,11 +1,20 @@
+#!/usr/bin/python
 import socket
 
-host = "127.0.0.1"
-port = 9999
-message = "AAABBBCCC"
+def Main():
+    host = '192.168.1.13'
+    port = 88
 
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect((host, port))
-client.sendto(message.encode(), (host, port))
-data, addr = client.recvfrom(4096)
-print(data)
+    s = socket.socket()
+    s.connect((host,port))
+
+    message = raw_input("-> ")
+    while message != 'q':
+        s.send(message)
+        data = s.recv(1024)
+        print "Received from server: " + str(data)
+        message = raw_input("-> ")
+    s.close()
+
+if __name__ == '__main__':
+    Main()
